@@ -1,0 +1,22 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "salman",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.1.0"
+  },
+  "dependencies": {
+    "jsmodbus": "^4.0.10",
+    "modbus-serial": "^8.0.21-no-serial-port",
+    "pdfkit": "^0.17.1",
+    "sqlite3": "^5.1.7"
+  }
+}

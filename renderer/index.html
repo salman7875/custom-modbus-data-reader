@@ -1,0 +1,28 @@
+<!-- === renderer/index.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RS485 Load Test</title>
+</head>
+<body>
+  <h1>Load Cell Test</h1>
+  <div id="weightDisplay">Weight: --</div>
+  <button id="startBtn" onclick="startReading()">Start</button>
+  <button id="stopBtn" onclick="stopReading()" disabled>Stop</button>
+
+  <form id="testForm">
+    <input placeholder="Tool Name" id="toolName"><br>
+    <input placeholder="Part No" id="partNo"><br>
+    <input placeholder="Serial No" id="serialNo"><br>
+    <input placeholder="Location" id="location"><br>
+    <input placeholder="Tested By" id="testedBy"><br>
+    <input placeholder="Certified By" id="certifiedBy"><br>
+    <input placeholder="Date" id="testDate" type="date"><br>
+    <button type="submit">Save</button>
+    <button type="button" onclick="downloadPDF()">Download PDF</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
