@@ -19,7 +19,5 @@ Purpose
 -------
 
 *   Experiment with Modbus communication
-    
 *   Learn Electron desktop app development
-    
 *   Test Node.js integration with industrial protocols
